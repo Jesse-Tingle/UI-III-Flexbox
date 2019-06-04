@@ -64,3 +64,106 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 877px;
+	margin: auto;	
+}
+
+/* header {
+	background-color: #89d6ea;
+    padding-bottom: 30px;
+	padding-right: 20px;
+	position: fixed;
+    top: 0px;
+} */
+
+header nav {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+header nav a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+header img.logo {
+	margin: -11px;
+    padding-left: 133px;
+}
+
+.OnDemand {
+	margin-top: 100px;
+	margin-bottom: 110px;
+	text-align: center;
+}
+.headerimg {
+	margin: -45px 6px;
+    padding-left: 32px;
+}
+
+button {
+	border: solid 1px black;
+	padding: 5px 50px 5px 50px;
+	font-size: 15px;
+}
+
+.OD-text {
+	display: inline-block;
+	text-align: center;
+}
+
+.OD-text h1 {
+	font-size: 85px;
+	text-align: center;
+}
+
+ .OnDemand img {
+	margin-left: 100px;
+}
+
+.mainContent img {
+	text-align: center;
+}
+.top-section{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.top-section .text {
+	display: inline-block;
+	width: 435px;
+}
+
+.bottom-section {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.bottom-section .text {
+	display: inline-block;
+	width: 289px;
+}
+
+.text p {
+	line-height: 18px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+.street {
+	margin-bottom: 20px;
+}
+
+.phone {
+	margin-bottom: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
