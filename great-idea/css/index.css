@@ -185,6 +185,10 @@ footer {
 Styles for Services Page
 ***/
 
+.header img.services-header-img {
+	margin-top: 25px;
+}
+
 .facts {
 	margin-top: 40px;
 	margin-bottom: 125px;
@@ -204,11 +208,6 @@ Styles for Services Page
 .facts li {
 	list-style-type: square;
 }
-
-/* .facts img {
-	width: 387px;
-    margin-left: 87px;
-} */
 
 .box p{
 	line-height: 20px;
@@ -238,4 +237,29 @@ Styles for Services Page
 
 .headerHR {
 	margin-bottom: 40px;
+}
+
+.box {
+	border: solid 1px black;
+	background-color: #f1f1f1;
+	width: 415px;
+	display: inline-block;
+}
+
+.boxText {
+	padding: 22px;
+}
+
+button {
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+.right {
+	margin-bottom: 50px;
+	margin-right: 43px;
+}
+
+.bottomHR {
+	border: solid 1px black;
 }
