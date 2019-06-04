@@ -180,3 +180,40 @@ footer {
 .bhr {
 	margin-top: 220px;
 }
+
+/*** 
+Styles for Services Page
+***/
+
+.factsText {
+	display: inline-block;
+	width: 398px;
+}
+
+.facts ul {
+	margin-left: 20px;
+    line-height: 31px;
+    padding-top: 31px;	
+}
+
+.facts li {
+	list-style-type: square;
+}
+
+/* .facts img {
+	width: 387px;
+    margin-left: 87px;
+} */
+
+.box p{
+	line-height: 20px;
+}
+
+.factsText p {
+	line-height: 20px;
+}
+
+.computerimg {
+	display: flex;
+    float: right;
+} 
