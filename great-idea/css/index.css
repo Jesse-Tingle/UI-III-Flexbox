@@ -70,14 +70,6 @@ h1, h2, h3, h4, h5 {
 	margin: auto;	
 }
 
-/* header {
-	background-color: #89d6ea;
-    padding-bottom: 30px;
-	padding-right: 20px;
-	position: fixed;
-    top: 0px;
-} */
-
 header nav {
 	display: flex;
 	float: left;
@@ -190,13 +182,13 @@ Styles for Services Page
 }
 
 .facts {
+	display: flex;
 	margin-top: 40px;
 	margin-bottom: 125px;
 }
 
 .factsText {
-	display: inline-block;
-	width: 398px;
+	width: 419px;
 }
 
 .facts ul {
@@ -219,7 +211,8 @@ Styles for Services Page
 
 .computerimg {
 	display: flex;
-    float: right;
+	float: right;
+	margin-left: 40px;
 } 
 
 .header {
@@ -239,11 +232,16 @@ Styles for Services Page
 	margin-bottom: 40px;
 }
 
+.boxContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .box {
 	border: solid 1px black;
 	background-color: #f1f1f1;
 	width: 415px;
-	display: inline-block;
+	/* display: inline-block; */
 }
 
 .boxText {
@@ -257,7 +255,11 @@ button {
 
 .right {
 	margin-bottom: 50px;
-	margin-right: 43px;
+    margin-right: 43px;
+}
+
+.left {
+	margin-bottom: 50px;
 }
 
 .bottomHR {
