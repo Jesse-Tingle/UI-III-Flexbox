@@ -271,3 +271,8 @@ Contact Page Styles
 .header img.sanfranmap {
 	margin-top: 25px;
 }
+
+.contactHR {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
