@@ -275,3 +275,13 @@ Styles for Contact Page
 .contactHR {
 	margin-top: 35px;
 }
+
+.phone a {
+	text-decoration: none;
+	color: grey;
+}
+
+.email a {
+	text-decoration: none;
+	color: grey;
+}
