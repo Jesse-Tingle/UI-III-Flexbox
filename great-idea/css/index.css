@@ -263,3 +263,11 @@ button {
 .bottomHR {
 	border: solid 1px black;
 }
+
+/***
+Contact Page Styles
+***/
+
+.header img.sanfranmap {
+	margin-top: 25px;
+}
