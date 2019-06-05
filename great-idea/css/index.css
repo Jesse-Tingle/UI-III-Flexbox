@@ -106,7 +106,6 @@ button {
 }
 
 .OD-text {
-	/* display: flex; */
 	text-align: center;
 }
 
@@ -241,7 +240,6 @@ Styles for Services Page
 	border: solid 1px black;
 	background-color: #f1f1f1;
 	width: 415px;
-	/* display: inline-block; */
 }
 
 .boxText {
@@ -264,4 +262,16 @@ button {
 
 .bottomHR {
 	border: solid 1px black;
+}
+
+/****
+Styles for Contact Page
+****/
+
+.sanfranmap {
+	margin-top: 25px;
+}
+
+.contactHR {
+	margin-top: 35px;
 }
