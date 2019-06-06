@@ -67,8 +67,12 @@ h1, h2, h3, h4, h5 {
 
 .container {
 	width: 877px;
-	margin: auto;	
+	margin: 0 auto;	
 }
+
+/*******
+Navigation and Logo Section
+*******/
 
 header nav {
 	display: flex;
@@ -87,16 +91,30 @@ header img.logo {
     padding-left: 133px;
 }
 
-.OnDemand {
+/*******
+End Navigation and Logo Section
+*******/
+
+
+
+/*******
+Innovation on Demand Section
+*******/
+
+.on-demand {
 	display: flex;
 	float: left;
 	margin-top: 100px;
 	margin-bottom: 110px;
+}
+
+.od-text {
 	text-align: center;
 }
-.headerimg {
-	margin: -45px 6px;
-    padding-left: 32px;
+
+.od-text h1 {
+	font-size: 85px;
+	text-align: center;
 }
 
 button {
@@ -105,23 +123,25 @@ button {
 	font-size: 15px;
 }
 
-.OD-text {
-	text-align: center;
+.on-demand img {
+	margin: -45px 6px;
+    padding-left: 160px;
 }
 
-.OD-text h1 {
-	font-size: 85px;
-	text-align: center;
-}
+.thr {
+	margin-top: 535px;
+} 
 
- .OnDemand img {
-	margin-left: 100px;
-}
+/*******
+End of Innovation on Demand Section
+*******/
 
-.mainContent img {
-	text-align: center;
-}
-.top-section{
+
+/*******
+Main Content Section
+*******/
+
+.top-section {
 	display: flex;
 	float: left;
 	margin-top: 40px;
@@ -132,19 +152,34 @@ button {
 	width: 435px;
 }
 
+.text p {
+	line-height: 18px;
+}
+
+.main-content img {
+	text-align: center;
+}
+
 .bottom-section {
 	display: flex;
 	float: left;
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+
 .bottom-section .text {
 	width: 289px;
 }
 
-.text p {
-	line-height: 18px;
-}
+/*******
+End of Main Content Section
+*******/
+
+
+
+/*******
+Contact Section
+*******/
 
 .contact {
 	margin-top: 40px;
@@ -158,36 +193,127 @@ button {
 	margin-bottom: 20px;
 }
 
+.bhr {
+	margin-top: 220px;
+}
+
+/*******
+End of Contact Section
+*******/
+
+
+/*******
+Footer Section
+*******/
+
 footer {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 100px;
 }
 
-.thr {
-	margin-top: 535px;
-} 
+/*******
+End of Footer Section
+*******/
 
-.bhr {
-	margin-top: 220px;
-}
+
 
 /*** 
 Styles for Services Page
 ***/
 
+
+
+/****
+Header Section
+****/
+
+.header {
+	margin-bottom: 40px;
+}
+
 .header img.services-header-img {
 	margin-top: 25px;
 }
 
+.header h1 {
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.header p {
+	line-height: 20px;
+}
+
+.header-hr {
+	margin-bottom: 40px;
+}
+
+/****
+End of Header Section
+****/
+
+
+/****
+Box Section
+****/
+
+.box-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	border: solid 1px black;
+	background-color: #f1f1f1;
+	width: 415px;
+}
+
+.right {
+	margin-bottom: 50px;
+    margin-right: 43px;
+}
+
+.box-text {
+	padding: 22px;
+}
+
+.box p{
+	line-height: 20px;
+}
+
+button {
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+.left {
+	margin-bottom: 50px;
+}
+
+.bottom-hr {
+	border: solid 1px black;
+}
+/****
+End of Box Section
+****/
+
+
+/****
+Facts Section
+****/
 .facts {
 	display: flex;
 	margin-top: 40px;
 	margin-bottom: 125px;
 }
 
-.factsText {
+.facts-text {
 	width: 419px;
+}
+
+.facts-text p {
+	line-height: 20px;
 }
 
 .facts ul {
@@ -200,79 +326,39 @@ Styles for Services Page
 	list-style-type: square;
 }
 
-.box p{
-	line-height: 20px;
-}
-
-.factsText p {
-	line-height: 20px;
-}
-
-.computerimg {
+.computer-img {
 	display: flex;
 	float: right;
 	margin-left: 40px;
 } 
+/****
+End of Facts Section
+****/
 
-.header {
-	margin-bottom: 40px;
-}
 
-.header h1 {
-	font-size: 30px;
-	margin-top: 30px;
-}
-
-.header p {
-	line-height: 20px;
-}
-
-.headerHR {
-	margin-bottom: 40px;
-}
-
-.boxContainer {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.box {
-	border: solid 1px black;
-	background-color: #f1f1f1;
-	width: 415px;
-}
-
-.boxText {
-	padding: 22px;
-}
-
-button {
-	border-radius: 3px;
-	margin-top: 20px;
-}
-
-.right {
-	margin-bottom: 50px;
-    margin-right: 43px;
-}
-
-.left {
-	margin-bottom: 50px;
-}
-
-.bottomHR {
-	border: solid 1px black;
-}
 
 /****
 Styles for Contact Page
 ****/
 
+
+
+/****
+Main Image Section
+****/
 .sanfranmap {
 	margin-top: 25px;
 }
 
-.contactHR {
+/****
+End of Main Image Section
+****/
+
+
+/****
+Contact Section
+****/
+.contact-hr {
 	margin-top: 35px;
 }
 
@@ -285,3 +371,7 @@ Styles for Contact Page
 	text-decoration: none;
 	color: grey;
 }
+
+/****
+End of Contact Section
+****/
